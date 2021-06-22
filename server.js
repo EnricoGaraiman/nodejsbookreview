@@ -1,7 +1,7 @@
 // Dependencies
 const http = require("http");
 const fs = require("fs");
-const PORT = 3000;
+const port = process.env.PORT || 3000
 const server = http.createServer(handleRequest);
 
 let db = [];
@@ -141,6 +141,6 @@ function generateReviews() {
 }
 
 // Starts the server
-server.listen(PORT, function () {
+server.listen(port, function () {
     console.log("Server listening on: http://localhost:" + PORT);
 });
