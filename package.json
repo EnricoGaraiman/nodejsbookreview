@@ -1,0 +1,17 @@
+{
+  "name": "nodejswebapplication",
+  "version": "1.0.0",
+  "description": "Node js Web Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "author": "Enrico Garaiman",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
